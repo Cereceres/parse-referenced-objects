@@ -1,8 +1,8 @@
 const Mezquite = require('mezquite');
 const mezquite = new Mezquite();
-const getReducer = require('./get-reducer');
+const getReducer = require('./lib/get-reducer');
 const refKey = process.env.REF_KEY || '__$ref';
-const refHereKey = process.env.REF_KEY || `${refKey }Here`;
+const refHereKey = process.env.REF_HERE_KEY || `${refKey }Here`;
 const parse = module.exports = (object, source = object) => {
     const paramsToGetReducer = {
         parse,
