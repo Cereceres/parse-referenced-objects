@@ -1,0 +1,29 @@
+{
+  "name": "parse-referenced-objects",
+  "version": "0.0.1",
+  "description": "parse referenced properties in objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/parse-referenced-objects.git"
+  },
+  "keywords": [
+    "parse",
+    "references",
+    "object",
+    "properties",
+    "property"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cereceres/parse-referenced-objects/issues"
+  },
+  "homepage": "https://github.com/Cereceres/parse-referenced-objects#readme",
+  "dependencies": {
+    "mezquite": "^0.1.4"
+  }
+}
