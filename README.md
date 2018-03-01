@@ -75,7 +75,7 @@ assert(res.c.cc === 'hereIAm');
 
 # api
 
-The reference "__$ref" and "__$refHere" are protected to be used like reference inside of object. The path must from parent object or parent direct.
+The reference __$ref and __$refHere are protected to be used like reference inside of object. The path must from parent object or parent direct.
 
 
 The keys can be changed with REF_KEY and REF_HERE_KEY environment vars.
